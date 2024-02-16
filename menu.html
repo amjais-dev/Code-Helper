@@ -1,0 +1,65 @@
+<html>
+<head>
+<style>
+#menu
+{
+height:40px;
+width:700px;
+background:skyblue;
+}
+ul{
+list-style:none;
+}
+#menu ul li{
+height:35px;
+width:100px;
+float:left;
+line-height:35px;
+text-align:center;
+transform:translateY(2px);
+margin-left:2px;
+border-radius:3px;
+opacity:0;
+animation:m 5s infinite;
+}
+#m1{
+animation-delay:1.8s;
+}
+#m2{
+animation-delay:2.6s;
+}
+#m3{
+animation-delay:3.2s;
+}
+#m4{
+animation-delay:3.9s;
+}
+#m5{
+animation-delay:4.7;
+}
+@keyframes m{
+0%
+{
+opacity:0;
+}
+100%
+{
+background:aqua;
+font-size:17px;
+opacity:1;
+}
+}
+</style>
+</head>
+<body>
+<div id="menu">
+<ul>
+<li id="m1">Home</li>
+<li id="m2">About</li>
+<li id="m3">Contact</li>
+<li id="m4">Gallery</li>
+<li id="m5">FeedBack</li>
+</ul>
+</div>
+</body>
+</html>
